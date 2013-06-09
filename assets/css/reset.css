@@ -1,0 +1,65 @@
+/***************************************************************************
+ * @Author: NetChillies - PepUp The Web!
+ * @Website: http://www.netchillies.com/
+ * @Contact: http://www.netchillies.com/contact
+ * @Privacy Policy & Terms of Use: http://www.netchillies.com/terms
+ * @License Info: http://www.netchillies.com/license
+ ***************************************************************************/
+a, abbr, acronym, address, applet, article, aside, audio, b, blockquote, big, body, center, canvas, caption, cite, code, command, datalist, dd, del, details, dfn, dl, div, dt, em, embed, fieldset, figcaption, figure, font, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, keygen, label, legend, li,
+meter, nav, object, ol, output, p, pre, progress, q,  s, samp, section, small, span, source, strike, strong, sub, sup, table, tbody, tfoot, thead, th, tr, tdvideo, tt, u, ul, var
+{background: transparent; border: 0 none; font-size: 100%; margin: 0; padding: 0; vertical-align: baseline;}
+article, aside, audio, canvas, command, datalist, details, embed, figcaption, figure, footer, header, hgroup, keygen, meter, nav, output, progress, section, source, video{ display: block; }
+mark, rp, rt, ruby, summary, time { display: inline; }
+*:focus {outline: 0;}
+img{ outline:0; border:none;}
+a{text-decoration:none;}
+a:hover{text-decoration:none;}
+.textleft{text-align:left;}
+.textright{text-align:right;}
+.textcenter, .aligncenter{text-align:center;}
+.textjustify{text-align:justify;}
+.hidden{display:none; visibility:hidden;}
+.alignleft, .floatleft{float:left;}
+.alignright, .floatright{float:right;}
+small, .small{font-size:85%;}
+b, strong, .bold{font-weight:bold;}
+code{font-family:"Courier New", Courier, monospace;}
+.no-border{border: 0px;}
+.no-bg{background: none;}
+.relative{position: relative;}
+
+/* Reusable classes ============================================================ */
+
+h1,h2,h3,h4,h5,h6{
+    font-family: "Georgia", 'Trebuchet MS', 'arial', sans-serif;
+    margin-bottom: 5px;
+    color: #454545;
+    font-weight: normal;
+}
+h1{font-size: 22pt;}
+h2{font-size: 20pt;}
+h3{font-size: 18pt;}
+h4{font-size: 16pt;}
+h5{font-size: 14pt;}
+h6{font-size: 12pt;}
+
+
+.pad5{ padding: 5px; }
+.pad10{ padding: 10px; }
+.pad15{ padding: 15px; }
+.pad20{ padding: 20px; }
+
+.round5{-moz-border-radius: 5px; -webkit-border-radius: 5px;}
+.round10{-moz-border-radius: 10px; -webkit-border-radius: 10px;}
+.round15{-moz-border-radius: 15px; -webkit-border-radius: 15px;}
+.round20{-moz-border-radius: 20px; -webkit-border-radius: 20px;}
+.round25{-moz-border-radius: 25px; -webkit-border-radius: 25px;}
+
+
+/* Clear and Clearfix */
+.clear{clear: both; display: none; visibility: hidden; display: block; height: 0px;}
+.clearfix:after {clear: both; display: block; content: " "; height: 0px; visibility: hidden;}
+.clearfix {display: inline-block;}
+* html .clearfix { height: 1%; }
+.clearfix {display: block;}
+li.clearfix { display: list-item;}

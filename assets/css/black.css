@@ -1,0 +1,107 @@
+/***************************************************************************
+ * @Author: NetChillies - PepUp The Web!
+ * @Website: http://www.netchillies.com/
+ * @Contact: http://www.netchillies.com/contact
+ * @Privacy Policy & Terms of Use: http://www.netchillies.com/terms
+ * @License Info: http://www.netchillies.com/license
+ ***************************************************************************/
+body{
+    background: url(../img/pcgoncalvesdias.jpg) center no-repeat;
+    font-family: "Verdana", "arial", sans-serif;
+    font-size: 11pt;
+    color: #454545;
+    line-height: 1.5;
+    margin-top: 100px;
+    overflow: hidden;
+}
+
+.module{
+    padding-bottom: 20px;
+}
+
+a{
+    color: #000;
+}
+
+/** LOGO **************************************************************/
+#logo{
+    width: 800px;
+    text-align: center;
+    margin: 40px auto 10px auto;
+}
+
+h1.logo{
+    font-family: "Georgia", "Trebuchet MS", sans-serif;
+    font-size: 40px;
+    color: #FFF;
+    text-shadow:0px 1px 1px #000;
+    margin: 0px;
+    padding-bottom: 5px;
+}
+.logo-sep{
+    height: 50px;
+}
+
+/** CONTENT PANEL *****************************************************/
+#content{
+    width: 760px;
+    margin: 0px auto;
+    min-height: 250px;
+    padding: 20px;
+
+    position: relative;
+
+}
+#logo h2{
+	color:#092140 !important;
+    font-weight: bold;
+}
+#logo p, #content p{
+    font-size: 16px;
+	color:#092140 !important;
+    font-weight: bold;
+}
+
+#shadow{
+    display: block;
+    position: absolute;
+    bottom: -18px;
+    left: 0px;
+    background: url('images/shadow.png') bottom no-repeat;
+    width: 800px;
+    height: 18px;
+}
+
+
+/** COUNTDOWN TIMER ***************************************************/
+
+#countdown-timer{
+    text-align: center;
+
+}
+
+#countdown-timer span.day,
+#countdown-timer span.hour,
+#countdown-timer span.min,
+#countdown-timer span.sec{
+    display: inline-block;
+    background: #000;
+    width: 120px;
+    margin: 0 5px;
+    padding: 10px 0 20px 0;
+    font-size: 30pt;
+    color:#fff;
+
+    box-shadow: inset 0 0 8px #f60;
+    -moz-box-shadow: inset 0 0 8px #f60;
+    -webkit-box-shadow: inset 0 0 8px #f60;
+
+    border-radius: 5px; 
+    -moz-border-radius: 5px; 
+    -webkit-border-radius: 5px; 
+}
+
+#countdown-timer span.timer-text{
+    display: block;
+    font-size: 11pt;
+}
