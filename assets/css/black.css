@@ -12,9 +12,12 @@ body{
     color: #454545;
     line-height: 1.5;
     margin-top: 100px;
-    overflow: hidden;
+    margin-top: 100px;
 }
-
+/*Facebook*/
+.fb-like-box{
+    background: #fff;
+}
 .module{
     padding-bottom: 20px;
 }
